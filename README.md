@@ -1,6 +1,8 @@
-# WordCamp Taipei 2019 主要官方網站
+# WordCamp Taipei 2019 主要官方網站 + 活動網站
 
-## 本地端主機測試安裝
+## 主要官方網站本地測試
+
+### 本地端主機測試安裝
 
 本地端測試環境需求：
 - [VirtualBox 5.x](https://www.virtualbox.org/wiki/Downloads)
@@ -41,10 +43,10 @@
     `vagrant reload --provision`
 11. 檢查 http://wp-meta.test 是否成功，主要 WordCamp 測試網站為：http://central.wordcamp.test/
 
-## 安裝 WordCamp Taipei 2019 主題
+### 安裝 WordCamp Taipei 2019 主題
 
 `cd /vagrant-local/www/wordpress-meta-environment/wordcamp.test/public_html/wp-content/themes/`
-1. pull WordCamp Taipei 2019 主題 `git clone git@github.com:yuliyang/WCTPE2019.git`
+1. pull WordCamp Taipei 2019 主題 `git clone git@github.com:WordCamp-Taipei/WCTPETW.git`
 2. 啟用 WordCamp Taipei 2019 主題
 3. 去 [WordCamp Taipei 2019 網站](https://2019.taipei.wordcamp.org/wp-admin/export.php) Tools 匯出 xml 檔案
 4. Tools > Import > Run WordPress Importer (download and import attachment)
@@ -58,6 +60,19 @@
     * Google Web Fonts: `@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap');`
     * Font Awesome: `https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css`
     * Check "Enqueue Dashicons"
+
+## 活動網站本地測試
+
+### 本地端主機測試安裝
+
+可參考 **主要官方網站本地端主機測試安裝** 或是使用你習慣的本地 WordPress 測試環境
+
+### 安裝 WordCamp Taipei 2019 主題
+
+1. 確定已安裝 Twenty Seventeen 主題
+2. pull WordCamp Taipei 2019 主題 `git clone git@github.com:WordCamp-Taipei/WCTPETW.git`
+3. 啟用 WordCamp Taipei 2019 主題
+4. 待補齊~
 
 ## 開工囉！
 
